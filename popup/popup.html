@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="stylesheet" href="popup.css" />
+</head>
+
+<body>
+	<div class="current-coordinate border" id="coordinatesDetails">
+	<div class="head" id="coordinatesHead"></div>
+		<div id="foundCoords"></div>
+		<p>
+		<form>
+			<span class="waypoint-name-label" id="waypointNameLabel"></span>
+			<input class="waypoint-name-input" type="text" id="wptName" placeholder="Optional name" autofocus>
+		</form>
+		<div class="name-warning" id="nameWarning"></div>
+		<div class="button download"><img class="btn-icon" src="/icons/file_download.png"/> Download</div>
+		<div class="name-warning" id="noDownloadWarning"></div>
+	</div>
+	<p>
+
+	<script src="popup.js"></script>
+	<script src="/help_scripts/XMLWriter.js"></script>
+	<script src="/help_scripts/GpxCreator.js"></script>
+
+</body>
+</html>
+

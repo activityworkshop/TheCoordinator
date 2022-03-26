@@ -1,0 +1,41 @@
+{
+  "extensionName": {
+    "message": "The Coordinator",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Extracts cache coordinates from the pages of geocaching websites",
+    "description": "Description of the extension."
+  },
+  
+  "coordinatesHead": {
+    "message": "Cache coordinates:",
+    "description": "Cache coordinates headline"
+  },
+
+  "waypointNameLabel": {
+    "message": "Waypoint:",
+    "description": "Waypoint name label"
+  },
+  
+  "nameWarning": {
+    "message": "The name you entered has more than 16 characters: some devices might not support it!",
+    "description": "Too long waypoint name warning"
+  },
+  
+  "wptName": {
+    "message": "optional name",
+    "description": "textbox placeholder"
+  },
+  
+  "noCoordError": {
+    "message": "Error: could not read coordinates from webpage.",
+    "description": "could not get coordinates error message"
+  },
+  
+  "noDownloadWarning": {
+    "message": "Error: could not download the waypoint list.",
+    "description": "message if download failed"
+  }
+}

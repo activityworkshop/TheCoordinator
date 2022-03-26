@@ -1,0 +1,126 @@
+html, body {
+	width: 330px;
+	background-image: url("../images/topo.jpg");
+	font-family: "Arial", Gadget, sans-serif;
+}
+
+.head {
+	font-size: 1.1em;
+	margin-bottom: 7px;
+	font-weight: bold;
+}
+
+.button {
+	margin-top: 10px;
+	padding: 4px;
+	text-align: center;
+	font-size: 1em;
+	cursor: pointer;
+	margin-left: 130px;
+	width: 170px;
+	background-color: #E5F2F2;
+	border: 1px solid #808080;
+}
+
+.btn-icon {
+	width: 14px;
+	height: 12px;
+}
+
+.no-coordinates-message {
+	background-color: rgba(240, 49, 49, 0.8);
+	text-align: justify;
+	font-size: 1.1em;
+}
+
+.wrong-page {
+	background-color: rgba(240, 49, 49, 0.8);
+	text-align: justify;
+	font-size: 1.1em;
+}
+
+.button:hover {
+	background-color: #EAEA9D;
+}
+
+.saved-waypoints {
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+.no-saved-wpt {
+	text-align: center;
+	font-size: 1em;
+	font-style: italic;
+}
+
+.footer {
+	background-color: rgba(255, 255, 255, 0.8);
+	margin-bottom: 15px;
+}
+
+.waypoint-name-input {
+	margin-left: 3px;
+}
+
+.name-warning {
+	margin-top: 3px;
+	color: #ff0000;
+	font-size: 0.9em;
+	display: none;
+	text-align: center;
+}
+
+.saved-wpt {
+	font-size: 0.9em;
+	margin-bottom: 5px;
+	border: 2px solid #6d6d6d;
+	padding: 3px;
+	background-color: rgba(31, 167, 49, 0.6);
+}
+
+.coord-gap {
+	margin-top: 5px;
+}
+
+.coord-name {
+	font-weight: bold;
+}
+
+.coordinate-added-message {
+	width: 250px;
+	margin-left: 20px;
+	margin-top: 4px;
+	font-size: 1em;
+	font-weight: bold;
+	border: 0px;
+	color: rgb(3, 119, 18);
+	background-color: transparent;
+	border: 0px;
+	text-align: center;
+	font-size: 1em;
+}
+
+.current-coordinate {
+	background-color: rgba(255, 255, 255, 0.8);
+	font-size: 0.9em;
+}
+
+.border {
+	border: 2px solid #505050;
+	padding: 7px;
+	margin-top: 15px;
+	margin-left: 2px;
+	margin-right: 2px;
+	box-shadow: 5px 7px #b9b9b9;
+}
+
+.download-text {
+	font-size: 0.8em;
+}
+
+#foundCoords {
+	background:#eee;
+	border:2px solid #333;
+	padding:3px;
+}
+

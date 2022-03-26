@@ -1,0 +1,42 @@
+{
+  "extensionName": {
+    "message": "The Coordinator",
+    "description": "Name of the extension."
+  },
+
+  "extensionDescription": {
+    "message": "Extrahiert Koordinaten von den Seiten verschiedener Geocaching-Dienste",
+    "description": "Description of the extension."
+  },
+  
+  "coordinatesHead": {
+    "message": "Cache Koordinaten:",
+    "description": "Cache Koordinaten Titel"
+  },
+  
+  "waypointNameLabel": {
+    "message": "Wegpunkt:",
+    "description": "Wegpunktname label"
+  },
+  
+  "nameWarning": {
+    "message": "Dieser Name hat mehr als 16 Zeichen - für manche Geräte ist dies zu lang!",
+    "description": "Zu lange Wegpunktname Warnung"
+  },
+  
+  "wptName": {
+    "message": "Cache Name",
+    "description": "textbox placeholder"
+  },
+
+  "noCoordError": {
+    "message": "Fehler: die Koordinaten konnten nicht gelesen werden.",
+    "description": "could not get coordinates error message"
+  },
+  
+  "noDownloadWarning": {
+    "message": "Fehler: Wegpunkteliste konnte nicht heruntergeladen werden.",
+    "description": "message if download failed"
+  }
+  
+}
